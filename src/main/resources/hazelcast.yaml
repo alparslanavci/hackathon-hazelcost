@@ -1,0 +1,14 @@
+hazelcast:
+  jet:
+    enabled: true
+  map:
+    requests:
+      event-journal:
+        enabled: true
+        capacity: 500000
+        time-to-live-seconds: 0
+    resources:
+      event-journal:
+        enabled: true
+        capacity: 500000
+        time-to-live-seconds: 0
