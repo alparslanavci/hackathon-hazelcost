@@ -12,3 +12,23 @@ hazelcast:
         enabled: true
         capacity: 500000
         time-to-live-seconds: 0
+    output:
+      event-journal:
+        enabled: true
+        capacity: 500000
+        time-to-live-seconds: 0
+    requestCounts:
+      event-journal:
+        enabled: true
+        capacity: 500000
+        time-to-live-seconds: 0
+    cpuAvgs:
+      event-journal:
+        enabled: true
+        capacity: 500000
+        time-to-live-seconds: 0
+    memAvgs:
+      event-journal:
+        enabled: true
+        capacity: 500000
+        time-to-live-seconds: 0
